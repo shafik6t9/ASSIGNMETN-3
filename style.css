@@ -1,0 +1,51 @@
+.carousel{
+    width: 98%;
+} 
+.carousol-img{
+    width: 100%;
+} 
+.content{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.deals{
+    margin-top: 35rem;
+}
+.why-img{
+    width: 20px;
+    height:20px;
+}
+.team-img{
+    width: 25px;
+    width: 25px;
+}
+
+
+
+
+
+.why-us-1 {
+    grid-area: why-us-1;
+  }
+  .why-us-2 {
+    grid-area: why-us-2;
+  }
+  .why-us-3 {
+    grid-area: why-us-3;
+  }
+
+
+
+
+  @media screen and (min-width:319px) and (max-width:425px){
+    .why-us{
+        display:    grid;
+        grid-template-areas: 
+        'why-us-2'
+        'why-us-1'
+        'why-us-3';
+        gap: 5px;
+    }
+    
+    
+}
